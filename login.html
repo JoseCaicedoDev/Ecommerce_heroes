@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <title>Card Super Heroes</title>
+</head>
+
+<body class="body">
+  <header>
+    <nav>
+      <p class="discount">Descuentos 20%</p>
+      <div class="navbar">
+        <img src="images/logo_tienda.png" width="90px" alt="">
+        <h1 class="title">Nombre Tienda</h1>
+      </div>
+<!--       <ul class="menu">
+        <li><a href="" class="link">Contacto</a></li>
+        <li><a href="registre.html" class="link">Registrame</a></li>
+        <li><a href="" class="link">Ingresar</a></li>
+      </ul> -->
+    </nav>
+  </header>
+  <main>
+    <form class="formulario" action="formulario.html" method="GET">
+      <fieldset>
+        <legend>Registro</legend>
+        <input type="text" class="input_design" name="nombre" placeholder="Nombre y apellido" minlength="2" maxlength="4" required>
+        <input type="email" class="input_design" name="nombre" placeholder="Correo Electrónico" minlength="2" maxlength="4" required>
+        <input type="password" class="input_design" name="nombre" placeholder="Contraseña" minlength="2" maxlength="4" required>
+        <select class="input_design" name="nacionalidad" id="nacionalidad" required>
+          <option value="" selected>País</option>
+          <option value="AR">Argentina</option>
+          <option value="CO">Colombia</option>
+          <option value="BR">Brasil</option>
+        </select>
+        <div class="button_form">
+          <input type="submit" class="buttonDesign" value="Resetear">
+          <input type="submit" class="buttonDesign" value="Registrar">
+        </div>
+        <p class="registre">¿Ya tenés una cuenta? <a href="">Ingresá</a></p>
+      </fieldset>
+    </form>
+
+  </main>
+  <!-- footer con CopyRight  -->
+  <footer>
+    <p class="footer">Todos los derechos reservados a FRONT END 1</p>
+  </footer>
+</body>
+
+</html>

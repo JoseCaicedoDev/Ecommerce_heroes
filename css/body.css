@@ -1,0 +1,6 @@
+.body{
+  background: var(--color-white);
+  color: var(--color-black);
+  font: var(--baseFont);
+  margin: 0;
+}
