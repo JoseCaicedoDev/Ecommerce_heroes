@@ -99,3 +99,8 @@ fieldset{
   color: var(--color-primary);
   text-decoration: none;
 }
+
+.designLogin{
+  width: 100%;
+  color: var(--color-font) !important;
+}
