@@ -64,6 +64,7 @@ fieldset{
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   display: block;
   margin-bottom: 20px;
+  outline: none;
 }
 .button_form{
   width: 420px;
@@ -112,4 +113,5 @@ fieldset{
   padding-left: 15px;
   padding-top: 8px;
   color: var(--color-font);
+  outline: none;
 }
